@@ -1,164 +1,111 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name =" description" content="Pomodoro Timer Meeting Minutes">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title> Pomodorot Timer - Meeting minutes</title>
-        <link rel="icon" href="favicon.ico">
-    </head>
-    <body>
-        <header>
-            <h1>Pomodorto Timer - First BrainStorm </h1>
-            <nav>
-                <ul>
-                    <li> <a href="#minutes">Meeting Minutes</a></li>
-                    <li> <a href="#audio">Audio </a></li>
-                    <li> <a href="#Video">Video </a></li>
-                    <li> <a href="#fom">Feedback Form</a></li>
-                </ul>
-            </nav>
-        </header>
-   
-        <main>
-            <section id="minutes">
-                <h2>Meeting Notes</h2>
-                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nulla porro ab odio molestias pariatur animi, hic suscipit harum recusandae sit, doloremque, iure obcaecati repellat. Odit odio sed a. Pariatur, commodi!</p>
-                
-                <h3>Attendance</h3>
-                <ul>
-                    <li>Fariba Tokhi</li>
-                    <li>Alex Ahmadi</li>
-                    <li>Nazi Tokhi</li>
-                    <li>Tamana Tokhi</li>
-                </ul>
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Team 16 Agile Meeting Minutes - Lab 3">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-                <h3>Agenda</h3>
-                <ol>
-                    <li>BrainStorm for project</li>
-                    <li>Select roles</li>
-                    <li>Divided tasks</li>
-                    <li>Assign tasks</li>
-                </ol>
-                <h3>UnDiscussed things</h3>
-                <p><strong>Technology</strong> pendding to decide</p>
+    <title>Team 16 - Agile Meeting Minutes</title>
 
-                <h3>New Goals</h3>
-                <p><em>Proposed:</em> HTML for front and  Java for backend</p>
+    <link rel="icon" href="favicon.ico">
 
-                <h3>Images</h3>
-                <img src="screenshots/image1.jpeg" alt="img">
-                <br>
-                 <img src="screenshots/image1.jpeg" alt="img">
-                 <hr>
-                 <div>
-                    <span>Note:</span> these screenshots are from our today meeting.
+    <link rel="stylesheet" href="styles.css">
+</head>
 
-                 </div>
+<body>
 
-            </section>
-            <section id="audio">
-            <h2>Audio Recording</h2>
-            <audio controls>
-                <source src="Audio/meeting.mp3" type="audio/mp3">
-            </audio>
-        </section>
+<header>
+    <h1>Team 16 Agile Meeting Minutes</h1>
 
-        <section id="video">
-            <h2>Video Recording</h2>
-            <video controls width="400">
-                <source src="video/meeting.mp4" type="video/mp4">
-            </video>
-        </section>
+    <nav>
+        <ul>
+            <li><a href="#minutes">Meeting Notes</a></li>
+            <li><a href="#attendance">Attendance</a></li>
+            <li><a href="#agenda">Agenda</a></li>
+            <li><a href="#media">Media</a></li>
+        </ul>
+    </nav>
+</header>
 
-        <hr>
+<main>
 
-    
-        <section>
-            <h2>Extra Info</h2>
-            <details>
-                <summary>Click to expand project description</summary>
-                <p>The Pomodoro Timer helps users stay focused. It uses short intervals of work and rest.</p>
-            </details>
-        </section>
+    <section id="minutes">
+        <h2>Meeting Summary</h2>
+        <p>
+            Team 16 met to discuss Lab 3 progress, CSS requirements, and GitHub workflow using Agile methods.
+            We focused on splitting tasks and making sure each issue has its own branch and pull request.
+        </p>
 
-        <hr>
+        <h3>Date & Time</h3>
+        <p>April 21, 2026 - 5:00 PM</p>
 
-   
-        <section id="form">
-            <h2>Feedback Form</h2>
+        <h3>Meeting Type</h3>
+        <p>Weekly Agile Sprint Planning</p>
+    </section>
 
-            <form>
+    <section id="attendance">
+        <h2>Attendance</h2>
+        <ul>
+            <li>Fariba Tokhi</li>
+            <li>Alex Ahmadi</li>
+            <li>Nazi Tokhi</li>
+            <li>Tamana Tokhi</li>
+        </ul>
+    </section>
 
-                <fieldset>
-                    <legend>Your Information</legend>
+    <section id="agenda">
+		<div class="grid-container">
+			<h2>Agenda</h2>
+				<ol>
+					<li>Review Lab 3 CSS requirements</li>
+					<li>Assign GitHub Issues</li>
+					<li>Create branches per task</li>
+					<li>Ensure PR workflow is followed</li>
+				</ol>
+			</div>
+        <h3>Discussion Notes</h3>
+        <p class="highlight text">
+            We clarified that CSS must include flexbox, grid, selectors, and media queries.
+            Everyone agreed to follow one issue per branch workflow.
+        </p>
 
-                    <label>Name:
-                        <input type="text" name="name">
-                    </label>
-                    <br><br>
+        <h3>Decisions</h3>
+		<div data-type="special">
+			<p>
+			 We will follow strict Agile workflow: Issue → Branch → Commit → Pull Request → Merge.
+			</p>
+		</div>
+		<h3>Tasks</h3>
+		<div class="flex-container">
+		<p>Task 1</p>
+		<p>Task 2</p>
+		<p>Task 3</p>
+</div>
+    </section>
 
-                    <label>Choose a meeting date:
-                        <input type="date" name="date">
-                    </label>
-                    <br><br>
+    <section id="media">
+        <h2>Media</h2>
 
-                    <label>How did you hear about this project?</label><br>
-                    <input list="sources" name="source">
-                    <datalist id="sources">
-                        <option value="Friend">
-                        <option value="Class">
-                        <option value="Instructor">
-                    </datalist>
-                </fieldset>
+        <h3>Images</h3>
+        <img src="screenshots/image1.jpeg" alt="Meeting Screenshot 1">
+        <img src="screenshots/image1.jpeg" alt="Meeting Screenshot 2">
 
-                <fieldset>
-                    <legend>Preferences</legend>
+        <h3>Audio Recording</h3>
+        <audio controls>
+            <source src="Audio/meeting.mp3" type="audio/mp3">
+        </audio>
 
-                    <label>
-                        <input type="checkbox" name="subscribe"> Subscribe for updates
-                    </label>
-                    <br><br>
+        <h3>Video Recording</h3>
+        <video controls width="400">
+            <source src="video/meeting.mp4" type="video/mp4">
+        </video>
+    </section>
 
-                    <p>Choose your favorite theme:</p>
+</main>
 
-                    <label>
-                        <input type="radio" name="theme" value="light"> Light
-                    </label><br>
-                    <label>
-                        <input type="radio" name="theme" value="dark"> Dark
-                    </label>
-                </fieldset>
+<footer>
+    <p>Team 16 - CSE110 Lab 3 Agile Meeting Minutes</p>
+</footer>
 
-                <fieldset>
-                    <legend>Comments</legend>
-                    <textarea rows="4" cols="40" placeholder="Write your feedback here..."></textarea>
-                </fieldset>
-
-                <br>
-
-                <label>Rate our meeting:
-                    <select name="rating">
-                        <option value="excellent">Excellent</option>
-                        <option value="good">Good</option>
-                        <option value="okay">Okay</option>
-                    </select>
-                </label>
-
-                <br><br>
-
-                <button type="submit">Submit</button>
-
-            </form>
-        </section>
-
-    </main>
-
-
-    <footer>
-        <p>&copy; 2026 Fariba Tokhi</p>
-    </footer>
-
-      
-    </body>
+</body>
 </html>

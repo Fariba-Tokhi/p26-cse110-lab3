@@ -7,3 +7,10 @@ header {
 header h1 {
   color: darkblue;
 }
+
+.flex-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+}

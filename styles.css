@@ -20,3 +20,9 @@ header h1 {
   grid-template-columns: 1fr 1fr 1fr;
   gap: 10px;
 }
+
+@media (max-width: 600px) {
+  body {
+    font-size: 14px;
+  }
+}
